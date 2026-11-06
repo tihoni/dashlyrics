@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DashLyrics</string>
+    <string name="app_full_name">DashLyrics for Android Auto</string>
+    <string name="notification_listener_label">DashLyrics Spotify Session Listener</string>
+    <string name="car_service_label">DashLyrics</string>
+</resources>

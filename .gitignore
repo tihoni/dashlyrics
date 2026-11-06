@@ -1,0 +1,18 @@
+# Android Auto Singalong / DashLyrics gitignore
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+.kotlin
+.android-sdk/
+
+# User explicitly excluded file
+ANDROID_AUTO_BUILD_MEMORY.md

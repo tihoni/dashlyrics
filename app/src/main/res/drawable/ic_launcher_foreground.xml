@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Steering Wheel Rim made of curved Spotify wave arcs (#1DB954) -->
+    <!-- Top steering wheel rim arc (202 deg to 338 deg around 54,54, r=28) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M28.0,43.5 A28,28 0 0,1 80.0,43.5"
+        android:strokeWidth="5.5"
+        android:strokeColor="#1DB954"
+        android:strokeLineCap="round" />
+
+    <!-- Bottom-left steering wheel rim wave arc -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M45.3,80.6 A28,28 0 0,1 26.1,51.6"
+        android:strokeWidth="5.5"
+        android:strokeColor="#1DB954"
+        android:strokeLineCap="round" />
+
+    <!-- Bottom-right steering wheel rim wave arc -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M81.9,51.6 A28,28 0 0,1 62.7,80.6"
+        android:strokeWidth="5.5"
+        android:strokeColor="#1DB954"
+        android:strokeLineCap="round" />
+
+    <!-- Deconstructed Spotify 3 Wave Arcs forming the Steering Wheel Crossbar & Hub -->
+    <!-- Wave Arc 1 (Top / widest crossbar connecting left & right wheel rim) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M31.5,50.0 Q54.0,39.5 76.5,50.0"
+        android:strokeWidth="5.2"
+        android:strokeColor="#1DB954"
+        android:strokeLineCap="round" />
+
+    <!-- Wave Arc 2 (Middle Spotify wave across center horn pad) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M35.5,57.5 Q54.0,49.0 72.5,57.5"
+        android:strokeWidth="4.6"
+        android:strokeColor="#1DB954"
+        android:strokeLineCap="round" />
+
+    <!-- Wave Arc 3 (Inner/lower Spotify wave arc) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M40.5,64.5 Q54.0,58.0 67.5,64.5"
+        android:strokeWidth="4.2"
+        android:strokeColor="#1DB954"
+        android:strokeLineCap="round" />
+
+    <!-- Lower Steering Wheel Column / Spoke formed from matching wave strokes -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M48.5,67.5 Q50.5,73.5 49.0,79.5"
+        android:strokeWidth="4.0"
+        android:strokeColor="#1DB954"
+        android:strokeLineCap="round" />
+
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M59.5,67.5 Q57.5,73.5 59.0,79.5"
+        android:strokeWidth="4.0"
+        android:strokeColor="#1DB954"
+        android:strokeLineCap="round" />
+</vector>
