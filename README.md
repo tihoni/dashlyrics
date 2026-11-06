@@ -3,8 +3,9 @@
 > **Glanceable, real-time synchronized lyrics for Spotify — seamlessly projected onto your vehicle's Android Auto screen and phone.**
 
 <p align="center">
-  <img src="ss_android-auto.png" alt="DashLyrics on Android Auto" width="58%" />
-  <img src="ss-android-app.jpg" alt="DashLyrics on Android Phone" width="38%" />
+  <img src="ss_android-auto.png" alt="DashLyrics on Android Auto" height="420" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="ss-android-app.jpg" alt="DashLyrics on Android Phone" height="420" />
 </p>
 
 ---
@@ -28,7 +29,7 @@
 
 | Android Auto Vehicle Display | Android Phone App |
 | :---: | :---: |
-| <img src="ss_android-auto.png" width="460" alt="Android Auto Head Unit View" /> | <img src="ss-android-app.jpg" width="280" alt="Android Phone View" /> |
+| <img src="ss_android-auto.png" height="360" alt="Android Auto Head Unit View" /> | <img src="ss-android-app.jpg" height="360" alt="Android Phone View" /> |
 | *Real-time 3-line lyrics projected onto car head unit* | *Jetpack Compose auto-scrolling lyrics with ±30s controls* |
 
 ---
