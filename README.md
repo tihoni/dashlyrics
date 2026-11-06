@@ -3,9 +3,7 @@
 > **Glanceable, real-time synchronized lyrics for Spotify — seamlessly projected onto your vehicle's Android Auto screen and phone.**
 
 <p align="center">
-  <img src="ss_android-auto.png" alt="DashLyrics on Android Auto" height="420" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="ss-android-app.jpg" alt="DashLyrics on Android Phone" height="420" />
+  <img src="ss_android-auto.png" alt="DashLyrics on Android Auto" width="100%" />
 </p>
 
 ---
