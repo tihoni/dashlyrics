@@ -62,14 +62,21 @@
 ./gradlew assembleDebug
 ```
 
-### 2. Sideload to Phone for Android Auto
-To allow Android Auto's package validator to recognize sideloaded packages without restrictions, install with the Play Store initiator flag:
+### 2. Enable "Unknown sources" in Android Auto (One-Time Setup)
+Because this app is sideloaded (not yet installed from the Google Play Store), Android Auto's package validator requires **Unknown sources** to be enabled:
+1. On your phone, open **Settings > Connected devices > Connection preferences > Android Auto** (or search "Android Auto" in Settings).
+2. Scroll to the very bottom to **Version** and tap it **10 times** until a prompt asks to enable Developer Settings.
+3. Tap the **3-dot menu** in the top-right corner > **Developer settings**.
+4. Check **Unknown sources**.
+5. Set **Application Mode** to **Developer**.
 
+### 3. Sideload to Phone for Android Auto
+Install the APK to your phone via ADB:
 ```bash
 adb install -i com.android.vending -r app/build/outputs/apk/debug/app-debug.apk
 ```
 
-### 3. Grant Notification Listener Permission
+### 4. Grant Notification Listener Permission
 1. Open **DashLyrics** on your phone.
 2. Tap the **Grant** button on the notification permission banner (or navigate to `Settings > Apps > Special app access > Notification access`).
 3. Enable **DashLyrics**.
